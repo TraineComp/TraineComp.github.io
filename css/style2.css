@@ -3,6 +3,16 @@
     src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: MoonFlower;
+    src: url("../fonts/MoonFlower.ttf");
+}
+
+@font-face {
+    font-family: MoonFlower-Bold;
+    src: url("../fonts/MoonFlower-Bold.ttf");
+}
+
 body {
   position: relative; 
 }
@@ -34,14 +44,11 @@ body {
   width: 100%;
 }
 
-/*.corVermelha{
-text-color: #8B0000
-}*/
-
-.corVerde{
-    
+.tituloPatrocinadores {
+  padding: 3%;
+  font-family: 'MoonFlower-Bold';
+  color: #95181A;
 }
-
 
 
   /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
